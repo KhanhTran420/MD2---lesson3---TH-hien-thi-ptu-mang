@@ -17,6 +17,7 @@ public class TH2 {
                 break;
             }
         }
+        // phủ định của Exit vào if tức là điều kiện trong if phải là đúng thì sẽ thực thi câu lệnh dưới
         if (!Exit) {
             System.out.println("Not found " + inputName + " in the list.");
         }
